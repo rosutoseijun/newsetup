@@ -1,0 +1,2 @@
+curl -L -o C:\Windows\Panther\handysetup.xml https://github.com/rosutoseijun/newsetup.git/handysetup.xml
+%WINDIR%\System32\Sysprep\Sysprep.exe /oobe /unattend:C:\Windows\Panther\handysetup.xml /reboot
